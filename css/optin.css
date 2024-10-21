@@ -1,0 +1,91 @@
+.opt-in {
+    background: radial-gradient(circle, #3a3456 34%, #211e2e 63%);
+    border-radius: 100px;
+    padding: 60px;
+}
+
+.opt-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.opt-in-title {
+    font-size: 2.25rem;
+    color: var(--text-color);
+    text-transform: uppercase;
+
+}
+
+.opt-in-line {
+    height: 1px;
+    width: 42%;
+    background: linear-gradient(90deg,var(--primary-color) 0%, var(--secondary-color) 35%, #8176AF 69%, var(--primary-color) 100%);
+}
+
+.opt-sub-title {
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.group-item {
+    width: 100%;
+    height: 72px;
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: 0.875rem;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 0 36px;
+}
+
+.group-item::placeholder,
+.form-item::placeholder,
+.form-textarea::placeholder {
+    color:var(--text-color);
+    font-family: "Montserrat", sans-serif;
+}
+
+.form-item {
+    width: 100%;
+    height: 72px;
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: 0.875rem;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 0 36px;
+}
+
+.form-textarea {
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: 0.875rem;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 36px;
+    width: 100%;
+}
+
+.form .primary-button {
+    margin: 0 auto;
+}

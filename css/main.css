@@ -1,0 +1,45 @@
+@import url("reset.css");
+@import url("hero.css");
+@import url("about.css");
+@import url("services.css");
+@import url("tech.css");
+@import url("process.css");
+@import url("optin.css");
+@import url("footer.css");
+@import url("media_queries/tablet.css");
+@import url("media_queries/mobile.css");
+
+:root {
+    --primary-color: #343045;
+    --secondary-color: #C0B7E8;
+    --background-color: #302c42;
+    --text-color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 0.75rem;
+    overflow-x: hidden;
+}
+
+.services,
+.tech,
+.process,
+.opt-in,
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+    max-width: 1280px;
+    margin: 80px auto;
+    position: relative;
+}
+

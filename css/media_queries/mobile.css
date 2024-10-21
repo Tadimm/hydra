@@ -1,0 +1,267 @@
+@media screen and (max-width: 767px) {
+    .hero,
+    .about,
+    .services,
+    .tech,
+    .process,
+    .opt-in,
+    #footer {
+        width: 100%;
+        max-width: 767px;
+        padding: 0.75rem;
+        overflow: hidden;
+        gap: 12px;
+        margin: 0 auto 2.5rem auto;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        margin-top: 1.5rem;
+        margin-bottom: 24px;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .hero-info {
+        width: 100%;
+        justify-content: center;
+    }
+
+    h1 {
+        margin-bottom: 24px;
+        font-size: 1.875rem;
+        text-align: center;
+    }
+
+    .hero-text {
+        display: none;
+
+    }
+
+    .hero-build {
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .arrow-right {
+        display: none;
+    }
+
+    .line-1 {
+        top: 44px;
+        right: 30px;
+    }
+
+    .line-2 {
+        top: 8px;
+        left: -10px;
+    } 
+    
+    .line-3 {
+        top: 202px;
+        left: -66px;
+    }
+
+    .contacts {
+        padding: 36px 0;
+    }
+
+    .contacts-wrapper {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .contacts-list {
+        display: flex;
+        justify-content: flex-start;
+        transition: transform 0.3s ease-in-out;
+        width: calc(100vw * 3); 
+        gap: 0;
+    }
+
+    .contacts-item {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 100vw;
+    }
+
+    .prev-btn-svg,
+    .next-btn-svg {
+        display: block;
+    }
+  
+    .line-4,
+    .line-5,
+    .introduction-img,
+    .about-text,
+    .sub-title,
+    .line-7,
+    .line-8,
+    .footer-line,
+    .upper-services,
+    .upper-conditions,
+    .contacts-title {
+        display: none;
+    }
+
+    .about-hydra {
+        flex-direction: column;
+    }
+
+    .about-mask {
+        width: 100%;
+    }
+
+    .hydra-sub {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards-wrapper {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .cards {
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+        width: calc(100vw * 4); 
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    .card {
+        width: 100vw;
+        flex: 0 0 100vw;
+        padding: 24px;
+    }
+
+    .cards-prev-btn,
+    .cards-next-btn {
+        display: block;
+    }
+
+    .tech-title {
+        font-size: 1rem;
+
+    }
+
+    .title-slim {
+        font-size: 1.5rem;
+    }
+
+    .tech-container {
+        background-image: url(/images/masks/mask-tech-mobile.png);
+        padding: 60px 0;
+    }
+
+    .tech-wrapper {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .tech-prev-btn,
+    .tech-next-btn {
+        display: block;
+    }
+
+    .tech-stack  {
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+        width: calc(100vw * 4); 
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    .tech-image {
+        width: 100vw;
+        padding: 0 6rem;
+    }
+
+    .process-container {
+        margin-bottom: 0;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+    .processlist-wrapper {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .process-prev-btn,
+    .process-next-btn {
+        display: block;
+    }
+    .process-list {
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+        width: calc(100vw * 4); 
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    .process-item {
+        width: 100vw;
+        gap: 1.5rem;
+    }
+
+    .item-arrow {
+        display: none;
+    }
+
+    .opt-in {
+        border-radius: 40px;
+    }
+    .form-group {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    #footer {
+        gap: 40px;
+    }
+
+    .footer-upper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .upper-socialize {
+        align-items: center;
+    }
+
+    .footer-lower {
+        text-align: center;
+    }
+
+    .footer-credit {
+        margin-bottom: 40px;
+    }
+}

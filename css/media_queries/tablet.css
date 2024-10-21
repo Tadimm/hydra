@@ -1,0 +1,139 @@
+@media screen and (max-width: 1280px) {
+    .hero,
+    .about,
+    .services,
+    .tech,
+    .process,
+    .opt-in,
+    #footer {
+        width: 100%;
+        max-width: 1024px;
+        position: relative;
+        margin: 0 auto 50px;
+        padding: 0 20px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+        position: relative;
+    }
+
+    .burger-button {
+        display: block;
+    }
+
+    .site-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 334px;
+        row-gap: 1.5rem;
+        padding: 1rem;
+        background-color: var(--background-color);
+        position: absolute;
+        top: -334px;
+        left: 0;
+        transition: all 0.8s;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-item {
+        padding: 0.75rem 0;
+    }
+
+    .header.open .site-nav {
+        transform: translateY(135%);
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .hero-mask {
+        width: 320px;
+    }
+
+    .line-1 {
+        top: 62px;
+        right: 0;
+    }
+
+    .line-2 {
+        top: -12px;
+        left: 680px;
+    } 
+    
+    .line-3 {
+        top: 310px;
+        left: 366px;
+    }
+       
+    .contacts {
+        padding: 36px;
+        
+    }
+
+    .contacts-title{
+        font-size: 1rem;
+    }
+
+    .contacts-item {
+        gap: 18px;
+    }
+
+    .contacts-link {
+        font-size: 0.75rem;   
+    }
+
+    .about-title {
+        font-size: 1.875rem;
+    }
+
+    .introduction {
+        gap: 0;
+    }
+
+    .about-mask {
+        width: 400px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .tech-container {
+        padding: 78px;
+    }
+
+    .tech-stack {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 6rem;
+    }
+
+    .process-list {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .line-10 {
+        display: none;
+    }
+}
