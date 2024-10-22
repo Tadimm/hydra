@@ -14,6 +14,24 @@
         margin: 0 auto 2.5rem auto;
     }
 
+    .header {
+        padding: 0;
+    }
+    .logo {
+        align-items: flex-end;
+    }
+    .logo-img {
+        width: 60px;
+    }
+
+    .hydra {
+        width: 46px;
+    }
+
+    .header.open .site-nav {
+        transform: translateY(118%);
+    }
+
     .container {
         flex-direction: column-reverse;
         margin-top: 1.5rem;
@@ -48,22 +66,22 @@
     }
 
     .line-1 {
-        top: 44px;
-        right: 30px;
+        top: -2px;
+        right: 18px;
     }
 
     .line-2 {
-        top: 8px;
-        left: -10px;
+        top: -90px;
+        left: 0;
     } 
     
     .line-3 {
-        top: 202px;
-        left: -66px;
+        top: 128px;
+        left: 0;
     }
 
     .contacts {
-        padding: 36px 0;
+        padding: 12px 0;
     }
 
     .contacts-wrapper {
@@ -236,6 +254,17 @@
 
     .opt-in {
         border-radius: 40px;
+        padding: 46px 22px;
+    }
+
+    .opt-in-title,
+    .opt-sub-title {
+        font-size: 1.5rem;
+    }
+
+    .group-item,
+    .form-item {
+        height: 52px;
     }
     .form-group {
         flex-direction: column;
