@@ -13,7 +13,7 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 1;
     padding: 10px 0;
 }
@@ -78,6 +78,8 @@
 
 .burger-button .burger-element:nth-child(2) {
     width: 26px;
+    right: 7px;
+    left: auto;
 }
 
 .burger-button .burger-element:nth-child(3) {
@@ -285,6 +287,10 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+.contacts-item:first-child {
+    gap: 0;
 }
 
 .contacts-link {

@@ -102,7 +102,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        flex: 0 0 100vw;
+        flex: 0 0 94vw;
+    }
+
+    .contacts-item:first-child {
+        padding: 0 50px;
     }
 
     .prev-btn-svg,
@@ -130,6 +134,10 @@
 
     .about-mask {
         width: 100%;
+    }
+
+    .introduction {
+        justify-content: center;
     }
 
     .hydra-sub {
@@ -160,7 +168,7 @@
 
     .card {
         width: 100vw;
-        flex: 0 0 100vw;
+        flex: 0 0 94vw;
         padding: 24px;
     }
 
@@ -180,7 +188,7 @@
 
     .tech-container {
         background-image: url(/images/masks/mask-tech-mobile.png);
-        padding: 60px 0;
+        padding: 74px 0;
     }
 
     .tech-wrapper {
